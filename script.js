@@ -1,19 +1,14 @@
-Submit
-   ↓
-Validate information
-   ↓
-Display confirmation
-
-Clear
-   ↓
-Remove form information
-
-Subscribe
-   ↓
-Display confirmation
-
-Contact form
-      ↓
-JavaScript
-      ↓
-localStorage
+ABC-Fitness-Studio/
+│
+├── index.html
+├── services.html
+├── about.html
+├── community.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js   ← STEP 12 GOES HERE
+│
+└── images/

@@ -12,3 +12,8 @@ Subscribe
    ↓
 Display confirmation
 
+Contact form
+      ↓
+JavaScript
+      ↓
+localStorage

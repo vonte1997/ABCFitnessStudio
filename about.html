@@ -1,16 +1,156 @@
-About ABC Fitness Studio  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Fitness Studio</title>
+    <meta
+      name="description"
+      content="ABC Fitness Studio helps individuals build healthier habits through personal training, group classes, and community support."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="index.html" class="brand">ABC Fitness Studio</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-menu">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="community.html" class="nav-link">Community</a>
+        </div>
+      </nav>
+    </header>
 
-Mission:
-Our Mission at ABC fitness studio is to create a welcoming and motivating enivorment where individuals of all fitness levels can work toward their health and wellness goals!
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome to ABC Fitness Studio</p>
+            <h1>Build strength. Boost confidence. Live better.</h1>
+            <p>
+              Whether you're starting your fitness journey or leveling up your routine,
+              our welcoming team is here to help you reach your goals with expert guidance
+              and a motivating community.
+            </p>
+            <div class="hero-actions">
+              <a href="services.html" class="btn btn-primary">Explore Services</a>
+              <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-Business Hours: 
-Monday-Friday 
-5am-5am  
-Saturday
-5am-6pm
-Sunday 
-10am-6pm
+      <section class="section section-light" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">About ABC Fitness</p>
+            <h2>Supportive fitness for every stage of life</h2>
+          </div>
 
-Contact Us:
-757-299-0003
-abcfitness@gmail.com
+          <div class="two-column">
+            <div>
+              <p>
+                Our Mission at ABC Fitness Studio is to create a welcoming and motivating
+                environment where individuals of all fitness levels can work toward their
+                health and wellness goals.
+              </p>
+              <p>
+                We believe fitness should feel empowering, encouraging, and achievable.
+                That is why we focus on individualized support, practical coaching, and a
+                positive atmosphere that helps members feel at home from day one.
+              </p>
+            </div>
+            <div class="info-card">
+              <h3>Why Choose Us</h3>
+              <ul>
+                <li>Friendly and inclusive environment</li>
+                <li>Motivating coaches and trainers</li>
+                <li>Flexible routines for all fitness levels</li>
+                <li>Community-driven wellness support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Featured Services</p>
+            <h2>Programs designed for real results</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="service-card">
+              <h3>Personal Training</h3>
+              <p>Customized one-on-one support tailored to your goals and fitness level.</p>
+            </article>
+            <article class="service-card">
+              <h3>Strength Training</h3>
+              <p>Build power, endurance, and confidence with smart, progressive workouts.</p>
+            </article>
+            <article class="service-card">
+              <h3>Cardio Training</h3>
+              <p>Improve stamina and energy through focused cardio sessions and conditioning.</p>
+            </article>
+            <article class="service-card">
+              <h3>Group Fitness</h3>
+              <p>Stay motivated and active with upbeat classes designed to keep you moving.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent" id="community">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Community</p>
+            <h2>Fitness is better together</h2>
+          </div>
+
+          <div class="quote-box">
+            <p>
+              "Ever since I joined, it felt right as soon as I walked in. Great prices,
+              great equipment, and it's so clean!"
+            </p>
+            <strong>— Christina</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow accent">Call to Action</p>
+            <h2>Ready to begin your fitness journey?</h2>
+          </div>
+          <a href="tel:757-299-0003" class="btn btn-primary">Call Us Today</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>ABC Fitness Studio</h3>
+        </div>
+        <div>
+          <p>757-299-0003</p>
+          <p>abcfitness@gmail.com</p>
+        </div>
+        <div>
+          <p>© <span id="year"></span> ABC Fitness Studio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

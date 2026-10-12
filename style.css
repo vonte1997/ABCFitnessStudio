@@ -1,19 +1,78 @@
-Navy Blue:
-#1D3557
-- Header
-- Footer
-- Navigation
-- Major headings
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community | ABC Fitness Studio</title>
+    <meta name="description" content="Read member highlights, community tips, and upcoming events at ABC Fitness Studio." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="index.html" class="brand">ABC Fitness Studio</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="community.html" class="nav-link active">Community</a>
+        </div>
+      </nav>
+    </header>
 
-Red:
-#E63946B
-- Buttons
-- Call-to-action areas
-- Hover effects
-- Important accents
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow accent">Community</p>
+          <h1>Supportive people. Real encouragement.</h1>
+        </div>
+      </section>
 
-Soft White:
-#F1FAEE
-- Page background
-- Cards
-- Content areas
+      <section class="section section-light">
+        <div class="container">
+          <div class="community-grid">
+            <article class="info-card">
+              <h3>Member Spotlight</h3>
+              <p>
+                <strong>Christina:</strong> Ever since I joined, it felt right as soon as I walked in.
+                Great prices, great equipment, and it’s so clean!
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>Fitness Tips</h3>
+              <p>Stay consistent and eat right — you will see your fitness goals become reality.</p>
+            </article>
+
+            <article class="info-card">
+              <h3>Community Events</h3>
+              <p>ZUMBA outside coming soon!</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>ABC Fitness Studio</h3>
+        </div>
+        <div>
+          <p>757-299-0003</p>
+          <p>abcfitness@gmail.com</p>
+        </div>
+        <div>
+          <p>© <span id="year"></span> ABC Fitness Studio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
